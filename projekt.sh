@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: Michal Cwynar ( 175132 )
+# Author: Michal Cwynar
 # Version: 1.0
 
 STRONKI="Strony, z ktorych korzysta portal:\n1) https://sport.onet.pl/pilka-nozna/liga-angielska/tabele/?tid=8fpsr\n2) https://sportowefakty.wp.pl/pilka-nozna/premier-league\n3) mwyniki.pl/anglia/premier-league/najlepsi_strzelcy/\n4) https://www.transfermarkt.pl/premier-league/marktwerte/wettbewerb/GB1\n5) https://www.sts.pl/blog/wp-content/uploads/2019/11/premier-league-liverpool-manchester-city.jpg\n6) https://i.pinimg.com/originals/66/90/6f/66906f43adefb3bc553f7601fa7c1ed9.jpg\n7) https://i.pinimg.com/originals/17/1d/9d/171d9de2dc003a2896dd54e5e93c1303.jpg\n8) https://www.liverpoolfc.com/team/first-team/player/\n9) https://www.manutd.com/en/players-and-staff/detail/"
@@ -9,7 +9,7 @@ while getopts hvp OPT; do
  case $OPT in
   h) man ./manual.1.gz
      exit;;
-  v) echo "Michal Cwynar (175132) wersja 1.0"
+  v) echo "Michal Cwynar wersja 1.0"
      exit;;
   p) echo -e $STRONKI
      exit;;
